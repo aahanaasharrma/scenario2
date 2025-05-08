@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE = "aahanaasharrma/order-service"
         EC2_HOST = "13.61.145.165"
-        EC2_USER = "ubuntu"
+        EC2_USER = "ec2-user"
     }
 
     stages {
